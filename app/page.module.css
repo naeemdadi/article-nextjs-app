@@ -66,3 +66,14 @@
     border-radius: 50%;
     color: white;
 }
+
+@media (max-width: 800px) {
+    .paginationSection {
+        width: 100%;
+    }
+
+    .paginationSection button:disabled {
+        background-color: transparent;
+        color: darkgray;
+    }
+}
